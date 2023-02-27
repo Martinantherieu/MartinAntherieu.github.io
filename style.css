@@ -1,0 +1,442 @@
+@font-face {
+    font-family: "hkgrotesk_bold";
+    src: url("/fonts/hkgrotesk_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "hkgrotesk_regular";
+    src: url("/fonts/hkgrotesk_regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Satoshi-Regular";
+    src: url("/fonts/Satoshi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Satoshi-Medium";
+    src: url("/fonts/Satoshi-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Satoshi-Light";
+    src: url("/fonts/Satoshi-Light.ttf") format("truetype");
+}
+
+
+/* width */
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgb(136, 136, 136);
+    border-radius: 0px;
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 0);
+    border-radius: 100px;
+}
+
+/* width */
+
+
+/* Track */
+
+/* Handle */
+.jdm::-webkit-scrollbar-thumb {
+    background: rgb(0, 71, 147);
+}
+
+.kld::-webkit-scrollbar-thumb {
+    background: rgb(217, 0, 14);
+}
+
+.toh::-webkit-scrollbar-thumb {
+    background: rgb(124, 124, 124);
+}
+
+.home::-webkit-scrollbar-thumb {
+    background: rgb(254, 255, 227);
+}
+
+.minus::-webkit-scrollbar-thumb {
+    background: rgb(246, 147, 210);
+}
+
+.crips::-webkit-scrollbar-thumb {
+    background: rgb(145, 12, 207);
+}
+
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a:hover {
+    cursor: url(img/pointeurv1.png), auto;
+}
+
+
+body {
+    background: rgb(16, 16, 14);
+    color: rgb(254, 255, 227);
+    font-family: 'hkgrotesk_regular', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    cursor: url(img/curseurv1.png), auto;
+    min-height: 99vh;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px;
+    background: rgb(254, 255, 227);
+    color: #000;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+
+
+
+}
+
+.header a {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "Satoshi-Medium", sans-serif;
+    font-size: 24px;
+    text-align: right;
+}
+
+.header a:hover {
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    color: #000;
+}
+
+.header p {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "Satoshi-Medium", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.informationtext {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30, 30;
+    font-family: "Satoshi-light", sans-serif;
+    font-size: 18px;
+
+
+
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-family: "Satoshi-Light", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.start {
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+
+
+.instagram {
+    text-align: right;
+    padding: 12px;
+    margin-right: 100px;
+}
+
+.instagram a {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "Satoshi-regular", sans-serif;
+    font-size: 16px;
+    color: rgb(162, 162, 162);
+}
+
+.instagram a:hover {
+    color: #fb00ff;
+}
+
+
+
+.start a {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "Satoshi-Regular", sans-serif;
+    font-size: 16px;
+    color: rgb(162, 162, 162);
+
+}
+
+.start a:hover {
+    color: #00ff00;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    /* margin: 10px; */
+    font-family: "Satoshi-Light", sans-serif;
+    /* text-align: center; */
+    border-bottom: .5px solid rgb(254, 255, 227);
+    align-items: center;
+    text-decoration: none;
+    color: rgb(254, 255, 227);
+    margin: 0 15px;
+}
+
+a.grid {
+    transition: .7s;
+}
+
+a.cat-typographie:hover {
+    background-color: rgb(249, 72, 41);
+}
+
+a.cat-edition:hover {
+    background-color: rgb(71, 160, 255);
+
+}
+
+a.cat-branding:hover {
+    background-color: rgb(223, 20, 148);
+}
+
+a.cat-photographie:hover {
+    background-color: rgb(154, 82, 241);
+}
+
+a.cat-communication:hover {
+    background-color: rgb(218, 148, 19);
+}
+
+a.cat-installation:hover {
+    background-color: rgb(59, 62, 216);
+}
+
+.projets {
+    text-align: left;
+    padding: 16px;
+    font-family: "hkgrotesk_regular", sans-serif;
+}
+
+.domain,
+.date {
+    text-align: left;
+    padding: 16px;
+    font-family: "hkgrotesk_regular", sans-serif;
+}
+
+.header-traductionofimmaterial {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(71, 160, 255);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+
+.header-jourdemer {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(154, 82, 241);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+
+.header-microsouvenir {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(71, 160, 255);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.header-branding {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(223, 20, 148);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.header-kennedylauriedickson {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(249, 72, 41);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.header-crips {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(218, 148, 19);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.header-tissu-ete {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding: 14px;
+    margin-bottom: 50px;
+    font-family: "hkgrotesk-bold", sans-serif;
+    font-size: 16px;
+    background-color: rgb(59, 62, 216);
+    position: sticky;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.description-projets {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 14px;
+    border-bottom: .5px solid rgb(254, 255, 227);
+    align-items: center;
+    color: rgb(254, 255, 227);
+    margin: 0px 50px;
+    font-family: "satoshi-light", sans-serif;
+}
+
+.description-projets h1 {
+    font-size: 18px;
+    font-family: "satoshi-regular", sans-serif;
+    margin-right: 25px;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(31, 30, 30);
+    padding: 4px;
+    text-align: center;
+    font-family: "Satoshi-light";
+}
+
+.footer a {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "Satoshi-Regular", sans-serif;
+    font-size: 16px;
+    color: rgb(162, 162, 162);
+
+}
+
+.footer a:hover {
+    color: #1900ff;
+}
+
+.ligneimage1 {
+    margin: 8% 8%;
+    padding: 10px;
+
+}
+
+.informationtext {
+    font-family: "Satoshi-Regular", sans-serif;
+    font-size: 18px;
+    padding: 10%;
+    text-align: left;
+    background-image: url(img/back.jpg);
+    background-size: contain;
+
+}
+
+.information {
+    background-image: url(img/back.jpg);
+    background-size: contain;
+    max-height: 99vh;
+}
